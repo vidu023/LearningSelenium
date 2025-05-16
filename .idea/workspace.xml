@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex01_SeleniumBasics/TestSelenium01.java" afterDir="false" />
+    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 1 - 15 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex01_SeleniumBasics/TestSelenium02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/Adblock-Plus-free-ad-blocker-Chrome-Web-Store.crx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/CommonBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium05_WebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium06_IfUsing_Selenium3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium07_Imp_SeleniumCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium08_Maximize_Minimize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium09_Assertions_AssertJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium10_MiniProject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium11_changeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium12_Navigation_GET_NAVIGATETO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium13_HTTPS_isImportant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium14_Close_vs_Quit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium15_OptionClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vidu023&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vidu023/LearningSelenium.git&quot;,
+    &quot;accountId&quot;: &quot;faf36e1b-c352-45a7-9579-920d9f4133bd&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -46,12 +69,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestSelenium01.executor": "Run",
+    "TestNG.TestSelenium08_Maximize_Minimize.executor": "Run",
+    "TestNG.TestSelenium09_Assertions_AssertJ.executor": "Run",
+    "TestNG.TestSelenium10_MiniProject1.executor": "Run",
+    "TestNG.TestSelenium11_changeDriver.executor": "Run",
+    "TestNG.TestSelenium16.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java",
-    "last_opened_file_path": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium"
+    "last_opened_file_path": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java/com/thetestingacademy/ex02_SeleniumBasics"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\java\com\thetestingacademy\ex02_SeleniumBasics" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.ex02_SeleniumBasics" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestSelenium01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
@@ -85,6 +121,43 @@
       <option name="presentableId" value="Default" />
       <updated>1747298543197</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day 1 - 15 th May 25">
+      <option name="closed" value="true" />
+      <created>1747310172097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747310172097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 1 - 15 th May 25">
+      <option name="closed" value="true" />
+      <created>1747310182254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747310182254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 1 - 15 th May 25">
+      <option name="closed" value="true" />
+      <created>1747310189245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747310189245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day 1 - 15 th May 25">
+      <option name="closed" value="true" />
+      <created>1747310203202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747310203202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1 - 15 th May 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1 - 15 th May 25" />
   </component>
 </project>
