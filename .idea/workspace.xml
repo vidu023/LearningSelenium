@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 1 - 15 th May 25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex01_SeleniumBasics/TestSelenium02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/Adblock-Plus-free-ad-blocker-Chrome-Web-Store.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/CommonBaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium05_WebDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium06_IfUsing_Selenium3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium07_Imp_SeleniumCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium08_Maximize_Minimize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium09_Assertions_AssertJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium10_MiniProject1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium11_changeDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium12_Navigation_GET_NAVIGATETO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium13_HTTPS_isImportant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium14_Close_vs_Quit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium15_OptionClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex03_SeleniumLocators/TestSelenium17_Locators_ID_ClassName_Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex03_SeleniumLocators/TestSelenium18_Locators_LinkTest_PartialLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex03_SeleniumLocators/TestSelenium19_Locators_TagName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +59,9 @@
     "TestNG.TestSelenium10_MiniProject1.executor": "Run",
     "TestNG.TestSelenium11_changeDriver.executor": "Run",
     "TestNG.TestSelenium16.executor": "Run",
+    "TestNG.TestSelenium17_MiniProject_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators.executor": "Run",
+    "TestNG.TestSelenium18_Locators_LinkTest_Partial_TagName.executor": "Run",
+    "TestNG.TestSelenium19_Locators_TagName.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java",
@@ -106,8 +94,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSelenium17_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex03_SeleniumLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex03_SeleniumLocators" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex03_SeleniumLocators.TestSelenium17_Locators_ID_ClassName_Name" />
+      <option name="METHOD_NAME" value="test_VWO_InvalidLogin_Locators" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSelenium17_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators" />
         <item itemvalue="TestNG.TestSelenium01" />
       </list>
     </recent_temporary>
