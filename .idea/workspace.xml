@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 1 - 15 th May 25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex03_SeleniumLocators/TestSelenium17_Locators_ID_ClassName_Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex03_SeleniumLocators/TestSelenium18_Locators_LinkTest_PartialLinkText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex03_SeleniumLocators/TestSelenium19_Locators_TagName.java" afterDir="false" />
+    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 3 - 16 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium20_Locators_XPATH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium21_Locators_XPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,8 @@
     "TestNG.TestSelenium17_MiniProject_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators.executor": "Run",
     "TestNG.TestSelenium18_Locators_LinkTest_Partial_TagName.executor": "Run",
     "TestNG.TestSelenium19_Locators_TagName.executor": "Run",
+    "TestNG.TestSelenium20_Locators_XPATH.executor": "Run",
+    "TestNG.TestSelenium21_Locators_XPath.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java",
@@ -160,11 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1747310203202</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 3 - 16 th May 25">
+      <option name="closed" value="true" />
+      <created>1747472307582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747472307584</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 3 - 16 th May 25">
+      <option name="closed" value="true" />
+      <created>1747472326597</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747472326597</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 - 15 th May 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 - 15 th May 25" />
+    <MESSAGE value="Day 3 - 16 th May 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 - 16 th May 25" />
   </component>
 </project>
