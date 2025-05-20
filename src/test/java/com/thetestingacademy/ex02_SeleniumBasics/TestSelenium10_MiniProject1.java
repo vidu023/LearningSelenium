@@ -1,12 +1,13 @@
 package com.thetestingacademy.ex02_SeleniumBasics;
 
+import com.thetestingacademy.CommonBaseClass;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestSelenium10_MiniProject1 extends CommonBaseClass{
+public class TestSelenium10_MiniProject1 extends CommonBaseClass {
 
     @Description("To check text from Page Source")
     @Test

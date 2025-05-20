@@ -29,7 +29,8 @@ public class TestSelenium21_Locators_XPath {
         WebElement txt_pwd = driver.findElement(By.xpath("//input[@placeholder = 'Password']"));
         txt_pwd.sendKeys("12345");
 
-        WebElement btn_Login = driver.findElement(By.className("orangehrm-login-button"));
+        WebElement btn_Login = driver.findElement(By.xpath("//button[@type='submit']"));
+        // WebElement btn_Login = driver.findElement(By.className("orangehrm-login-button"));
         btn_Login.click();
 
         Thread.sleep(3000);

@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 3 - 16 th May 25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium20_Locators_XPATH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium21_Locators_XPath.java" afterDir="false" />
+    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 3 - 19 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium22_ImplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium23_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium24_Modal_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium25_FluentWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex06_Input_Select_Radio_Alerts_Checkbox/TestSelenium26_Input_Checkbox_Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex06_Input_Select_Radio_Alerts_Checkbox/TestSelenium27_Select_StaticDropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/CommonBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/CommonBaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium10_MiniProject1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium10_MiniProject1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium21_Locators_XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium21_Locators_XPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +70,9 @@
     "TestNG.TestSelenium19_Locators_TagName.executor": "Run",
     "TestNG.TestSelenium20_Locators_XPATH.executor": "Run",
     "TestNG.TestSelenium21_Locators_XPath.executor": "Run",
+    "TestNG.TestSelenium22_ImplicitWait.executor": "Run",
+    "TestNG.TestSelenium23_ExplicitWait.executor": "Run",
+    "TestNG.TestSelenium_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java",
@@ -72,6 +82,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\java\com\thetestingacademy\ex02_SeleniumBasics" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.thetestingacademy.ex02_SeleniumBasics" />
@@ -115,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSelenium17_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators" />
         <item itemvalue="TestNG.TestSelenium01" />
+        <item itemvalue="TestNG.TestSelenium17_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators" />
       </list>
     </recent_temporary>
   </component>
@@ -177,12 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747472326597</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 3 - 19 th May 25">
+      <option name="closed" value="true" />
+      <created>1747681240294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747681240297</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 - 15 th May 25" />
     <MESSAGE value="Day 3 - 16 th May 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 - 16 th May 25" />
+    <MESSAGE value="Day 3 - 19 th May 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 - 19 th May 25" />
   </component>
 </project>
