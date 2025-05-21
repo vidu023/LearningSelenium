@@ -1,0 +1,6 @@
+This
+is my
+Test Data File
+for Testing the FileUpload in Selenium
+
+- Tested by Vidya

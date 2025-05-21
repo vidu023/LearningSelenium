@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 3 - 19 th May 25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium22_ImplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium23_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium24_Modal_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex05_SeleniumWaits/TestSelenium25_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex06_Input_Select_Radio_Alerts_Checkbox/TestSelenium26_Input_Checkbox_Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex06_Input_Select_Radio_Alerts_Checkbox/TestSelenium27_Select_StaticDropdown.java" afterDir="false" />
+    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Day 5 - 20 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/apkpure.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex10_ActionsClass/TestSelenium28_ActionsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex10_ActionsClass/TestSelenium29_ActionsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex10_ActionsClass/TestSelenium30_MakeMyTrip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex10_ActionsClass/TestSelenium31_PageUP_PageDOWN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex10_ActionsClass/TestSelenium32_Drag_nDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex11_FileUpload/TestSelenium33_FileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/CommonBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/CommonBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium10_MiniProject1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex02_SeleniumBasics/TestSelenium10_MiniProject1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium21_Locators_XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex04_SeleniumXPATH/TestSelenium21_Locators_XPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/CommonBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/CommonBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,9 @@
     "TestNG.TestSelenium21_Locators_XPath.executor": "Run",
     "TestNG.TestSelenium22_ImplicitWait.executor": "Run",
     "TestNG.TestSelenium23_ExplicitWait.executor": "Run",
+    "TestNG.TestSelenium29_ActionsClass.executor": "Run",
+    "TestNG.TestSelenium31_PageUP_PageDOWN.executor": "Run",
+    "TestNG.TestSelenium33_FileUpload.executor": "Run",
     "TestNG.TestSelenium_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -83,6 +86,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\java\com\thetestingacademy\ex02_SeleniumBasics" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\java\com\thetestingacademy" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.thetestingacademy" />
     </key>
@@ -90,7 +96,7 @@
       <recent name="com.thetestingacademy.ex02_SeleniumBasics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestSelenium33_FileUpload">
     <configuration name="TestSelenium01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
@@ -126,8 +132,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSelenium29_ActionsClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex10_ActionsClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex10_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex10_ActionsClass.TestSelenium29_ActionsClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium31_PageUP_PageDOWN" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex10_ActionsClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex10_ActionsClass" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex10_ActionsClass.TestSelenium31_PageUP_PageDOWN" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium33_FileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex11_FileUpload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex11_FileUpload" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex11_FileUpload.TestSelenium33_FileUpload" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSelenium33_FileUpload" />
+        <item itemvalue="TestNG.TestSelenium31_PageUP_PageDOWN" />
+        <item itemvalue="TestNG.TestSelenium29_ActionsClass" />
         <item itemvalue="TestNG.TestSelenium01" />
         <item itemvalue="TestNG.TestSelenium17_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators" />
       </list>
@@ -198,13 +258,22 @@
       <option name="project" value="LOCAL" />
       <updated>1747681240297</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 5 - 20 th May 25">
+      <option name="closed" value="true" />
+      <created>1747766449311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747766449315</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 - 15 th May 25" />
     <MESSAGE value="Day 3 - 16 th May 25" />
     <MESSAGE value="Day 3 - 19 th May 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 - 19 th May 25" />
+    <MESSAGE value="Day 5 - 20 th May 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 - 20 th May 25" />
   </component>
 </project>
