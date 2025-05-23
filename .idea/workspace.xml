@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Actions - 21 th May 25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex11_FileUpload/TaskSelenium_BrowserStack_FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex12_Windows/TestSelenium34_WindowHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex12_Windows/TestSelenium35_IFrames_Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex13_JavascriptEx/TestSelenium36_InterviewQnA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex13_JavascriptEx/TestSelenium37_JSEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex14_JS_ShadowDOM/TestSelenium38_JS_ShadowDOM.java" afterDir="false" />
+    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Windows,iFrame,JS,ShadowDOM  - 22 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex15_RelativeLocators/TestSelenium39_RelativeLocatorEg1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex15_RelativeLocators/TestSelenium40_RelativeLocators_Eg2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex15_RelativeLocators/TestSelenium41_RealEg_RelativeLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex16_SeleniumExceptions/TestSelenium42_NoSuchElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex16_SeleniumExceptions/TestSelenium43_StaleElementReferenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex16_SeleniumExceptions/TestSelenium44_TimeoutException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,9 @@
     "TestNG.TestSelenium34_WindowHandles.executor": "Run",
     "TestNG.TestSelenium35_IFrames_Interview.executor": "Run",
     "TestNG.TestSelenium37_JSEx.executor": "Run",
+    "TestNG.TestSelenium40_RelativeLocators_Eg2.executor": "Run",
+    "TestNG.TestSelenium41_RealEg_RelativeLocators.executor": "Run",
+    "TestNG.TestSelenium42_NoSuchElementException.executor": "Run",
     "TestNG.TestSelenium_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -96,75 +99,7 @@
       <recent name="com.thetestingacademy.ex02_SeleniumBasics" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSelenium37_JSEx">
-    <configuration name="TestSelenium31_PageUP_PageDOWN" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.ex10_ActionsClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex10_ActionsClass" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex10_ActionsClass.TestSelenium31_PageUP_PageDOWN" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSelenium33_FileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.ex11_FileUpload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex11_FileUpload" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex11_FileUpload.TestSelenium33_FileUpload" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSelenium34_WindowHandles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.ex12_Windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex12_Windows" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex12_Windows.TestSelenium34_WindowHandles" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSelenium35_IFrames_Interview" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.ex12_Windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex12_Windows" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex12_Windows.TestSelenium35_IFrames_Interview" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestSelenium44_TimeoutException">
     <configuration name="TestSelenium37_JSEx" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
@@ -182,13 +117,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSelenium40_RelativeLocators_Eg2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex15_RelativeLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex15_RelativeLocators" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex15_RelativeLocators.TestSelenium40_RelativeLocators_Eg2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium41_RealEg_RelativeLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex15_RelativeLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex15_RelativeLocators" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex15_RelativeLocators.TestSelenium41_RealEg_RelativeLocators" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium42_NoSuchElementException" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex16_SeleniumExceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex16_SeleniumExceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex16_SeleniumExceptions.TestSelenium42_NoSuchElementException" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium44_TimeoutException" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex16_SeleniumExceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex16_SeleniumExceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex16_SeleniumExceptions.TestSelenium44_TimeoutException" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSelenium44_TimeoutException" />
+        <item itemvalue="TestNG.TestSelenium42_NoSuchElementException" />
+        <item itemvalue="TestNG.TestSelenium41_RealEg_RelativeLocators" />
+        <item itemvalue="TestNG.TestSelenium40_RelativeLocators_Eg2" />
         <item itemvalue="TestNG.TestSelenium37_JSEx" />
-        <item itemvalue="TestNG.TestSelenium35_IFrames_Interview" />
-        <item itemvalue="TestNG.TestSelenium34_WindowHandles" />
-        <item itemvalue="TestNG.TestSelenium33_FileUpload" />
-        <item itemvalue="TestNG.TestSelenium31_PageUP_PageDOWN" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747853817126</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Windows,iFrame,JS,ShadowDOM  - 22 th May 25">
+      <option name="closed" value="true" />
+      <created>1747936748692</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747936748692</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,6 +293,7 @@
     <MESSAGE value="Day 3 - 19 th May 25" />
     <MESSAGE value="Day 5 - 20 th May 25" />
     <MESSAGE value="Actions - 21 th May 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actions - 21 th May 25" />
+    <MESSAGE value="Windows,iFrame,JS,ShadowDOM  - 22 th May 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Windows,iFrame,JS,ShadowDOM  - 22 th May 25" />
   </component>
 </project>
