@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Windows,iFrame,JS,ShadowDOM  - 22 th May 25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex15_RelativeLocators/TestSelenium39_RelativeLocatorEg1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex15_RelativeLocators/TestSelenium40_RelativeLocators_Eg2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex15_RelativeLocators/TestSelenium41_RealEg_RelativeLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex16_SeleniumExceptions/TestSelenium42_NoSuchElementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex16_SeleniumExceptions/TestSelenium43_StaleElementReferenceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex16_SeleniumExceptions/TestSelenium44_TimeoutException.java" afterDir="false" />
+    <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Relative Locators, Selenium Exceptions - 22 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex07_WebTables/Static/TaskSelenium_StaticWebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex07_WebTables/Static/TestSelenium45_StaticWebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex07_WebTables/Static/TestSelenium46_StaticWebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex08_HandlingSVG/TestSelenium47_SVG_FlipkartSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex08_HandlingSVG/TestSelenium48_SVGMaps_State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +77,12 @@
     "TestNG.TestSelenium40_RelativeLocators_Eg2.executor": "Run",
     "TestNG.TestSelenium41_RealEg_RelativeLocators.executor": "Run",
     "TestNG.TestSelenium42_NoSuchElementException.executor": "Run",
+    "TestNG.TestSelenium44_TimeoutException.executor": "Run",
+    "TestNG.TestSelenium45_StaticWebTable.executor": "Run",
+    "TestNG.TestSelenium46_StaticWebTable.executor": "Run",
+    "TestNG.TestSelenium47_SVG.executor": "Run",
+    "TestNG.TestSelenium47_SVG_FlipkartSearch.executor": "Run",
+    "TestNG.TestSelenium48_SVGMaps_State.executor": "Run",
     "TestNG.TestSelenium_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -96,27 +101,11 @@
       <recent name="com.thetestingacademy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.ex07_WebTables.Static" />
       <recent name="com.thetestingacademy.ex02_SeleniumBasics" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSelenium44_TimeoutException">
-    <configuration name="TestSelenium37_JSEx" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.ex13_JavascriptEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex13_JavascriptEx" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex13_JavascriptEx.TestSelenium37_JSEx" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="TestSelenium40_RelativeLocators_Eg2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
@@ -185,13 +174,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSelenium45_StaticWebTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.ex07_WebTables.Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.ex07_WebTables.Static" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex07_WebTables.Static.TestSelenium45_StaticWebTable" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSelenium40_RelativeLocators_Eg2" />
+        <item itemvalue="TestNG.TestSelenium45_StaticWebTable" />
         <item itemvalue="TestNG.TestSelenium44_TimeoutException" />
         <item itemvalue="TestNG.TestSelenium42_NoSuchElementException" />
         <item itemvalue="TestNG.TestSelenium41_RealEg_RelativeLocators" />
-        <item itemvalue="TestNG.TestSelenium40_RelativeLocators_Eg2" />
-        <item itemvalue="TestNG.TestSelenium37_JSEx" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747936748692</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Relative Locators, Selenium Exceptions - 22 th May 25">
+      <option name="closed" value="true" />
+      <created>1748025867045</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748025867045</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,6 +308,7 @@
     <MESSAGE value="Day 5 - 20 th May 25" />
     <MESSAGE value="Actions - 21 th May 25" />
     <MESSAGE value="Windows,iFrame,JS,ShadowDOM  - 22 th May 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Windows,iFrame,JS,ShadowDOM  - 22 th May 25" />
+    <MESSAGE value="Relative Locators, Selenium Exceptions - 22 th May 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relative Locators, Selenium Exceptions - 22 th May 25" />
   </component>
 </project>
