@@ -12,7 +12,12 @@ public class TestSelenium45_StaticWebTable extends CommonBaseClass {
         driver.get("https://awesomeqa.com/webtable.html");
         driver.manage().window().maximize();
 
-        // xpath ->  //table[@id="customers"]/tbody/tr[5]/td[2]
+        // no of rows -> //table[@id="customers"]/tbody/tr
+        // no of coulmns -> //table[@id="customers"]/tbody/tr[2]/td
+        // 2nd because we want from 2nd row because 1st row is heading of the table
+        // table starts from index 1
+
+        // xpath ->  //table[@id="customers"]/tbody/tr[5]/td[2] -> Helen Bennett
 
 
         //xpath - //table[@id="customers"]/tbody/tr[
@@ -24,6 +29,9 @@ public class TestSelenium45_StaticWebTable extends CommonBaseClass {
         String first_part = "//table[@id=\"customers\"]/tbody/tr[";
         String second_part = "]/td[";
         String third_part = "]";
+
+        // i value from 2 to 7
+        // j value 1,2,3
 
         // tr -> will give row
         int row = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr")).size();
@@ -46,9 +54,12 @@ public class TestSelenium45_StaticWebTable extends CommonBaseClass {
                     // we want to print the Country i.e. next following sibling of Helen Bennett
                     // i.e. td -> col value of Country where Helen Bennett lives
                     String country_path = dynamic_path + "/following-sibling::td";
-                    String country_text = driver.findElement(By.xpath(country_path)).getText();
+                    String country_company = dynamic_path + "/preceding-sibling::td";
+                    String country_Ptext = driver.findElement(By.xpath(country_path)).getText();
+                    String country_Ctext = driver.findElement(By.xpath(country_company)).getText();
                     System.out.println("------");
-                    System.out.println("Helen Bennett lives in - " + country_text);
+                    System.out.println("Helen Bennett lives in - " + country_Ptext);
+                    System.out.println("Helen Bennett company is - " + country_Ctext);
 
                 }
 
