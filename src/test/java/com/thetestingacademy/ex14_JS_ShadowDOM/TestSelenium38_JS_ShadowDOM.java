@@ -18,6 +18,7 @@ public class TestSelenium38_JS_ShadowDOM extends CommonBaseClass {
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         // we want to return that input box so that we can sendKeys -> FarmHouse
+        // explicit casting we are using so that we know what type od data we are returning
         WebElement inputBox_Pizza = (WebElement) js.executeScript("return document.querySelector(\"div#userName\").shadowRoot.querySelector('div#app2').shadowRoot.querySelector('#pizza');");
         inputBox_Pizza.sendKeys("Farmhouse");
     }
