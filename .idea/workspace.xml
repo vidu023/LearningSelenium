@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d56ea95-8a82-414b-bfc6-4c15dc45d87e" name="Changes" comment="Relative Locators, Selenium Exceptions - 22 th May 25">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex18_DataDrivenTesting_POI/TestSelenium49_DDT_TestNG_POI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex18_DataDrivenTesting_POI/TestSelenium50_DDT_TestNG_POI_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex18_DataDrivenTesting_POI/TestSelenium51_DDT_TestNG_POI_Real.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex18_DataDrivenTesting_POI/TestSelenium52_DDT_TestNG_POI_Real_VWO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex18_DataDrivenTesting_POI/UtilExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex07_WebTables/Static/TestSelenium45_StaticWebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/ex07_WebTables/Static/TestSelenium45_StaticWebTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,62 +52,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TestSelenium01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium08_Maximize_Minimize.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium09_Assertions_AssertJ.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium10_MiniProject1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium11_changeDriver.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium16.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium17_MiniProject_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium18_Locators_LinkTest_Partial_TagName.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium19_Locators_TagName.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium20_Locators_XPATH.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium21_Locators_XPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium22_ImplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium23_ExplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium29_ActionsClass.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium31_PageUP_PageDOWN.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium33_FileUpload.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium34_WindowHandles.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium35_IFrames_Interview.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium37_JSEx.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium40_RelativeLocators_Eg2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium41_RealEg_RelativeLocators.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium42_NoSuchElementException.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium44_TimeoutException.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium45_StaticWebTable.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium46_StaticWebTable.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium47_SVG.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium47_SVG_FlipkartSearch.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium48_SVGMaps_State.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSelenium_ImplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java/com/thetestingacademy/ex02_SeleniumBasics&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestSelenium01.executor": "Run",
+    "TestNG.TestSelenium08_Maximize_Minimize.executor": "Run",
+    "TestNG.TestSelenium09_Assertions_AssertJ.executor": "Run",
+    "TestNG.TestSelenium10_MiniProject1.executor": "Run",
+    "TestNG.TestSelenium11_changeDriver.executor": "Run",
+    "TestNG.TestSelenium16.executor": "Run",
+    "TestNG.TestSelenium17_MiniProject_Locators_ID_ClassName_Name.test_VWO_InvalidLogin_Locators.executor": "Run",
+    "TestNG.TestSelenium18_Locators_LinkTest_Partial_TagName.executor": "Run",
+    "TestNG.TestSelenium19_Locators_TagName.executor": "Run",
+    "TestNG.TestSelenium20_Locators_XPATH.executor": "Run",
+    "TestNG.TestSelenium21_Locators_XPath.executor": "Run",
+    "TestNG.TestSelenium22_ImplicitWait.executor": "Run",
+    "TestNG.TestSelenium23_ExplicitWait.executor": "Run",
+    "TestNG.TestSelenium29_ActionsClass.executor": "Run",
+    "TestNG.TestSelenium31_PageUP_PageDOWN.executor": "Run",
+    "TestNG.TestSelenium33_FileUpload.executor": "Run",
+    "TestNG.TestSelenium34_WindowHandles.executor": "Run",
+    "TestNG.TestSelenium35_IFrames_Interview.executor": "Run",
+    "TestNG.TestSelenium37_JSEx.executor": "Run",
+    "TestNG.TestSelenium40_RelativeLocators_Eg2.executor": "Run",
+    "TestNG.TestSelenium41_RealEg_RelativeLocators.executor": "Run",
+    "TestNG.TestSelenium42_NoSuchElementException.executor": "Run",
+    "TestNG.TestSelenium44_TimeoutException.executor": "Run",
+    "TestNG.TestSelenium45_StaticWebTable.executor": "Run",
+    "TestNG.TestSelenium46_StaticWebTable.executor": "Run",
+    "TestNG.TestSelenium47_SVG.executor": "Run",
+    "TestNG.TestSelenium47_SVG_FlipkartSearch.executor": "Run",
+    "TestNG.TestSelenium48_SVGMaps_State.executor": "Run",
+    "TestNG.TestSelenium51_DDT_TestNG_POI_Real.executor": "Run",
+    "TestNG.TestSelenium_ImplicitWait.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java",
+    "last_opened_file_path": "C:/Users/Vaishak Kini/IdeaProjects/LearningSelenium/src/test/java/com/thetestingacademy/ex02_SeleniumBasics"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\java\com\thetestingacademy\ex02_SeleniumBasics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\resources" />
       <recent name="C:\Users\Vaishak Kini\IdeaProjects\LearningSelenium\src\test\java\com\thetestingacademy" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.thetestingacademy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.ex18_DataDrivenTesting_POI" />
       <recent name="com.thetestingacademy.ex07_WebTables.Static" />
       <recent name="com.thetestingacademy.ex02_SeleniumBasics" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSelenium40_RelativeLocators_Eg2">
+  <component name="RunManager">
     <configuration name="TestSelenium40_RelativeLocators_Eg2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
@@ -310,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754152101212</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Relative Locators, Selenium Exceptions - 22 th May 25">
+      <option name="closed" value="true" />
+      <created>1754159694920</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1754159694920</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
